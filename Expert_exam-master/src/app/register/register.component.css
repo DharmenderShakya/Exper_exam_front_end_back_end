@@ -1,0 +1,22 @@
+.full-width {
+    width: 100%;
+  }
+  .card{
+    margin-top: 59px;
+    background-color: rgb(213, 193, 219);
+    border: 5px;
+    margin-left: 40px;
+  }
+  .form-group{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .container{
+    display: inline-block;
+    height: 100vh;
+    margin-left: 100px;
+  }
+  .main{
+    background-color: rgb(212, 224, 211);;
+  }
+  

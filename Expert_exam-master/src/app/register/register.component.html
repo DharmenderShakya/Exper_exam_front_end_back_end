@@ -1,0 +1,107 @@
+
+<main class="main">
+<div class="container mt-4">
+    <div class="row">
+      <div class="col-md-5 offset-md-3">
+        <div class="card shadow">
+          <!-- <div class="card-body text-center">
+            <img src="../../../assets/logo.png" alt="" />
+          </div> -->
+  
+          <h1 class="text-center mt-1 text-success">Register Here !!</h1>
+  
+          <!-- {{ user | json }} -->
+  
+          <form (ngSubmit)="register()">
+            <!-- Username field -->
+            <div class="form-group">
+              <label for="username">User Name</label>
+              <input
+                required
+                name="username"
+                class="form-control"
+                id="username"
+                placeholder="Enter here"
+              />
+            </div>
+  
+            <!-- Password field -->
+            <div class="form-group mt-3">
+              <label for="password">User Password</label>
+              <input
+                required
+                name="password"
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Enter here"
+              />
+            </div>
+  
+            <!-- first name  -->
+            <div class="form-group mt-3">
+              <label for="firstName">First Name</label>
+              <input
+                required
+                name="firstName"
+                class="form-control"
+                id="firstName"
+                placeholder="Enter here"
+              />
+            </div>
+  
+            <!-- lastname -->
+            <div class="form-group mt-3">
+              <label for="lastName">Last Name</label>
+              <input
+                required
+                name="lastName"
+                class="form-control"
+                id="lastName"
+                placeholder="Enter here"
+              />
+            </div>
+  
+            <!-- email -->
+            <div class="form-group mt-3">
+              <label for="email">Email Address</label>
+              <input
+                required
+                name="email"
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter here"
+              />
+            </div>
+  
+            <!-- phone number -->
+            <div class="form-group mt-3">
+              <label for="phone">Phone Number</label>
+              <input
+                required
+                name="phone"
+                type="number"
+                class="form-control"
+                id="phone"
+                placeholder="Enter here"
+              />
+            </div>
+  
+            <div class="text-center mt-3 mb-2">
+              <button type="submit" class="btn btn-primary">Register</button>
+              <button
+                type="button"
+                style="margin-left: 20px"
+                class="btn btn-secondary"
+              >
+                Clear
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+  

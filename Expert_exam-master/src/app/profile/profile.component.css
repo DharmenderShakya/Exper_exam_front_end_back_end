@@ -1,0 +1,32 @@
+.profile-image {
+    max-width: 150px;
+    max-height: 150px;
+    border: 2px solid #ff4081;
+    border-radius: 50%;
+    /* margin-top: 5px; */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 210px;
+    margin-top: -20px;
+  }
+  
+  .table tr td {
+    padding: 15px 10px;
+    border: 0.5px solid #e2e2e2;
+  }
+
+  .card {
+    width: 60%;
+    height: 87%;
+    margin-left: 23%;
+    margin-top: 69px;
+    
+  }
+  .mt-1{
+    margin-left: 10px;
+  }
+
+  

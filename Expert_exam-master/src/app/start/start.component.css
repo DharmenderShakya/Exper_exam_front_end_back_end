@@ -1,0 +1,16 @@
+.container-fluid{
+    width: 81%;
+    margin-right: 40px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 200px;
+}
+/* .ng-container{
+    margin-top: 40px;
+} */
+.card{
+    margin-left: 50px;
+}
+.mt-4{
+    margin-left: 40px;
+}

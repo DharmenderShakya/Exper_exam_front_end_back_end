@@ -1,0 +1,7 @@
+.card{
+    width: 50%;
+    float: right;
+    margin-right: 30%;
+    margin-top: 90px;
+    box-shadow: 10px black;
+}
